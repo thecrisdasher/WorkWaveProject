@@ -1,32 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-  <head>
+        <!-- Bootstrap CSS v5.3.2 -->
+        <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
-
-    <title>WorkWave -La revolucion de practicas laborales</title>
-<!--
-SOFTY PINKO
-https://templatemo.com/tm-535-softy-pinko
--->
-
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
-
-    <link rel="stylesheet" href="assets/css/templatemo-softy-pinko.css">
-
+        <!-- Custom CSS -->
+        <link href="{{ asset('css/font-awesome.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/templatemo-softy-pinko.css') }}" rel="stylesheet">
     </head>
 
     <body>
-
-    <!-- ***** Preloader Start ***** -->
+      <!-- ***** Preloader Start ***** -->
     <div id="preloader">
         <div class="jumper">
             <div></div>
@@ -579,6 +568,16 @@ https://templatemo.com/tm-535-softy-pinko
 
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
 
-  </body>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
 </html>
